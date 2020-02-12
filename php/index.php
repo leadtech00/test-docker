@@ -7,7 +7,7 @@
 
 <body>
 <?php
-echo "Vediamo se cambia..., " . $_GET['n'] . "!";
+echo "Vediamo se cambia (dovrebbe cambiare ancora)... " . $_GET['n'] . "!";
 ?>
 </body>
 </html>
