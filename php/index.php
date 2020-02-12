@@ -7,7 +7,7 @@
 
 <body>
 <?php
-echo "Ciao, " . $_GET['n'] . "!";
+echo "Benvenuto, " . $_GET['n'] . "!";
 ?>
 </body>
 </html>
