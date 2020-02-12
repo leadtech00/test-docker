@@ -77,6 +77,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: update-task
+        service: lms-service
         cluster: LMS-Fargate
         wait-for-service-stability: true
